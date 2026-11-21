@@ -1,0 +1,22 @@
+{
+  "data": {
+    "asset": {
+      "id": "c6a7c4b9-70b2-448e-ad52-56fe06f9f253",
+      "name": "raisin_frame"
+    },
+    "batch_definition": {
+      "id": "2cb4a49c-e62b-47ca-82cd-7c26cbb9fade",
+      "name": "full_table"
+    },
+    "datasource": {
+      "id": "14ef03b2-0f83-467a-a3e1-206a03f23949",
+      "name": "raisin_source"
+    }
+  },
+  "id": "f66980c5-0d43-45de-aedd-7eedca5b759d",
+  "name": "raisin_validation",
+  "suite": {
+    "id": "2ac3015b-30c2-4e10-9946-a0e9511fcc41",
+    "name": "raisin_measurements"
+  }
+}

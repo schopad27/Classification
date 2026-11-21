@@ -1,0 +1,257 @@
+{
+  "expectations": [
+    {
+      "id": "5336e969-2baf-453c-805b-c032f1c4ede8",
+      "kwargs": {
+        "column_set": [
+          "Area",
+          "MajorAxisLength",
+          "MinorAxisLength",
+          "Eccentricity",
+          "ConvexArea",
+          "Extent",
+          "Perimeter",
+          "Class"
+        ]
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_table_columns_to_match_set"
+    },
+    {
+      "id": "87e3c6e7-f52b-48c1-ab19-ebb88dc1e948",
+      "kwargs": {
+        "column": "Area"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "6b00950c-9536-4930-b297-1dc4638ba86f",
+      "kwargs": {
+        "column": "Area"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "a01753f7-1bc5-490d-b726-5dd07d74047e",
+      "kwargs": {
+        "column": "MajorAxisLength"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "3a063808-4605-46b1-9f2c-56dcfdbc7bfe",
+      "kwargs": {
+        "column": "MajorAxisLength"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "50b65cc4-9fb1-4530-a24f-a23117031ea6",
+      "kwargs": {
+        "column": "MinorAxisLength"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "89e0cfcf-44be-4acf-b974-8b831baea889",
+      "kwargs": {
+        "column": "MinorAxisLength"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "97971288-fbdb-47c7-88d0-24a9663ac5d9",
+      "kwargs": {
+        "column": "Eccentricity"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "be932fb7-b0cd-4af2-a0e7-361e881bd1be",
+      "kwargs": {
+        "column": "Eccentricity"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "445a4e29-d346-4b3f-b430-6c474e2b1f43",
+      "kwargs": {
+        "column": "ConvexArea"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "bcdb915b-463c-467e-a762-8fa844ea1293",
+      "kwargs": {
+        "column": "ConvexArea"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "759e8c41-cdd1-40d8-aeeb-ebd666f3bd13",
+      "kwargs": {
+        "column": "Extent"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "fd61121e-ca97-4689-a1a4-e487151e8e30",
+      "kwargs": {
+        "column": "Extent"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "2aef9895-7b5d-4358-87d6-2fb3e80d3f35",
+      "kwargs": {
+        "column": "Perimeter"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "ecdcb71d-0d04-42c4-8d2a-4f4b7952d4f8",
+      "kwargs": {
+        "column": "Perimeter"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "5ea56b40-867a-4b81-ae82-8fe17ab40954",
+      "kwargs": {
+        "column": "Class"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "a1ecdec7-2f48-47fc-a654-6b4dadb6633f",
+      "kwargs": {
+        "column": "Class"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "f6bb6e7a-bdf6-4c82-a454-51aff198de75",
+      "kwargs": {
+        "column": "Class",
+        "value_set": [
+          "Kecimen",
+          "Besni"
+        ]
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_in_set"
+    },
+    {
+      "id": "82cc94a1-f024-4bca-b828-4af9bca5f884",
+      "kwargs": {
+        "column": "Area",
+        "min_value": 0.0
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    },
+    {
+      "id": "bf99b710-3ff9-4cfd-bec9-110e6f621689",
+      "kwargs": {
+        "column": "MajorAxisLength",
+        "min_value": 0.0
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    },
+    {
+      "id": "9b702f10-43fa-4e53-a2a6-f86cea857f37",
+      "kwargs": {
+        "column": "MinorAxisLength",
+        "min_value": 0.0
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    },
+    {
+      "id": "c250503a-bc8f-4d67-b978-e12a4da61c72",
+      "kwargs": {
+        "column": "ConvexArea",
+        "min_value": 0.0
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    },
+    {
+      "id": "b52f918b-67db-43a8-9e44-4ddb48bdebe2",
+      "kwargs": {
+        "column": "Perimeter",
+        "min_value": 0.0
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    },
+    {
+      "id": "ffe1b3a2-2337-4f42-96e0-7c5f74e5a73e",
+      "kwargs": {
+        "column": "Eccentricity",
+        "max_value": 1.0,
+        "min_value": 0.0
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    },
+    {
+      "id": "06a2af71-7214-461b-bf4b-47be49827eaf",
+      "kwargs": {
+        "column": "Extent",
+        "max_value": 1.0,
+        "min_value": 0.0
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    }
+  ],
+  "id": "2ac3015b-30c2-4e10-9946-a0e9511fcc41",
+  "meta": {
+    "great_expectations_version": "1.25.0"
+  },
+  "name": "raisin_measurements",
+  "notes": null
+}

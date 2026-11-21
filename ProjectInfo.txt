@@ -1,0 +1,63 @@
+Project Infortmation:
+1. My Project execution containes below steps ,
+   1.1 Frame the problem abd look at big picture
+   1.2 Get the data
+   1.3 Explore the Data
+   1.4 Prepare the Data
+   1.5 Shortlist Promising Models
+   1.6 Fine-Tune the System
+   1.7 Present Your Solution
+   1.8 Launch!
+
+I will be detailing out each step and insights generated below in words,
+I am trying to find answers to below,
+#Frame the Problem and Look at the Big Picture
+1. Define the objective in business terms.
+Answer: In this study, machine vision system was developed in order to distinguish between two different 
+variety of raisins (Kecimen and Besni) grown in Turkey from its morphological features.
+2. How will your solution be used?
+Answer: this solution will be used to predict the category of raisins features are known for product labelling
+3. What are the current solutions/workarounds (if any)?
+Anwers: Currently Agricultural SME's Manually identify those
+4. How should you frame this problem (supervised/unsupervised, online/offline,
+etc.)?
+Answer :I frame this project supervised as here we need to predict the class of raisin
+5. How should performance be measured?
+Answer: I will be capturing the performance of my model prescison recall confusion matrix
+and area under the curve(ROC_AUC) 
+6. Is the performance measure aligned with the business objective?
+Anwer: Yes it does
+7. What would be the minimum performance needed to reach the business objective?
+Answer accuracy of 80% is tolerable
+8. What are comparable problems? Can you reuse experience or tools?
+Anwer:Yes , using machine learning model output will be judged against agriculatral SME's view
+9. Is human expertise available?
+Anwer:Yes , Instead 5 SME's , we will be using only one SME
+10. How would you solve the problem manually?
+Anwer: Will be fully dependent on the Agri SME
+11. List the assumptions you (or others) have made so far.
+Answer:All isntances/data gathers are independent in nature and accurate and fairly balanced
+12. Verify assumptions if possible.
+Answer :Sure, will judge these assumption against the insights produced
+
+# Get the Data
+Note: automate as much as possible so you can easily get fresh data.
+1. List the data you need and how much you need.
+Anwer:Currently this is study project and took offline kaggle dataset for the clasification
+2. Find and document where you can get that data.
+Answer:Done
+3. Check how much space it will take.
+Answer:The data is 10MB and within permitted use of local disk of my machine
+4. Check legal obligations, and get authorization if necessary.
+Answer:As this is publically available data , so all permissions are sorted
+5. Get access authorizations.
+Answer:We do have all authorizations to use this data
+6. Create a workspace (with enough storage space).
+Answer:We do have all space
+7. Get the data.
+Answer:Offline data is loaded
+8. Convert the data to a format you can easily manipulate (without changing the
+data itself).
+9. Ensure sensitive information is deleted or protected (e.g., anonymized).
+10. Check the size and type of data (time series, sample, geographical, etc.).
+11. Sample a test set, put it aside, and never look at it (no data snooping!).

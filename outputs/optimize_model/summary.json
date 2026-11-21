@@ -1,0 +1,32 @@
+{
+  "model_name": "SoftVote",
+  "cv_roc_auc": 0.9410493827160493,
+  "test_metrics": {
+    "roc_auc": 0.9225925925925926,
+    "accuracy": 0.8944444444444445,
+    "precision": 0.8514851485148515,
+    "recall": 0.9555555555555556,
+    "f1": 0.900523560209424,
+    "confusion_matrix": {
+      "tn": 75,
+      "fp": 15,
+      "fn": 4,
+      "tp": 86
+    }
+  },
+  "feature_names": [
+    "Area",
+    "MajorAxisLength",
+    "MinorAxisLength",
+    "Eccentricity",
+    "ConvexArea",
+    "Extent",
+    "Perimeter"
+  ],
+  "class_labels": [
+    "Besni",
+    "Kecimen"
+  ],
+  "bundle_path": "outputs/optimize_model/final_model.joblib",
+  "rows_used": 720
+}
