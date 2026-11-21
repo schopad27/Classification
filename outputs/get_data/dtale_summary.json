@@ -1,0 +1,160 @@
+{
+  "url": "http://LAPTOP-6S4F90G6:40000/dtale/main/raisin",
+  "dtypes": {
+    "Area": "int64",
+    "MajorAxisLength": "float64",
+    "MinorAxisLength": "float64",
+    "Eccentricity": "float64",
+    "ConvexArea": "int64",
+    "Extent": "float64",
+    "Perimeter": "float64",
+    "Class": "object"
+  },
+  "missing_counts": {
+    "Area": 0,
+    "MajorAxisLength": 0,
+    "MinorAxisLength": 0,
+    "Eccentricity": 0,
+    "ConvexArea": 0,
+    "Extent": 0,
+    "Perimeter": 0,
+    "Class": 0
+  },
+  "describe": {
+    "Area": {
+      "count": 900.0,
+      "mean": 87804.1278,
+      "std": 39002.1114,
+      "min": 25387.0,
+      "25%": 59348.0,
+      "50%": 78902.0,
+      "75%": 105028.25,
+      "max": 235047.0
+    },
+    "MajorAxisLength": {
+      "count": 900.0,
+      "mean": 430.93,
+      "std": 116.0351,
+      "min": 225.6295,
+      "25%": 345.4429,
+      "50%": 407.804,
+      "75%": 494.187,
+      "max": 997.2919
+    },
+    "MinorAxisLength": {
+      "count": 900.0,
+      "mean": 254.4881,
+      "std": 49.9889,
+      "min": 143.7109,
+      "25%": 219.1111,
+      "50%": 247.8484,
+      "75%": 279.8886,
+      "max": 492.2753
+    },
+    "Eccentricity": {
+      "count": 900.0,
+      "mean": 0.7815,
+      "std": 0.0903,
+      "min": 0.3487,
+      "25%": 0.7418,
+      "50%": 0.7988,
+      "75%": 0.8426,
+      "max": 0.9621
+    },
+    "ConvexArea": {
+      "count": 900.0,
+      "mean": 91186.09,
+      "std": 40769.2901,
+      "min": 26139.0,
+      "25%": 61513.25,
+      "50%": 81651.0,
+      "75%": 108375.75,
+      "max": 278217.0
+    },
+    "Extent": {
+      "count": 900.0,
+      "mean": 0.6995,
+      "std": 0.0535,
+      "min": 0.3799,
+      "25%": 0.6709,
+      "50%": 0.7074,
+      "75%": 0.735,
+      "max": 0.8355
+    },
+    "Perimeter": {
+      "count": 900.0,
+      "mean": 1165.9066,
+      "std": 273.7643,
+      "min": 619.074,
+      "25%": 966.4108,
+      "50%": 1119.509,
+      "75%": 1308.3898,
+      "max": 2697.753
+    }
+  },
+  "correlations": {
+    "Area": {
+      "Area": 1.0,
+      "MajorAxisLength": 0.9328,
+      "MinorAxisLength": 0.9066,
+      "Eccentricity": 0.3361,
+      "ConvexArea": 0.9959,
+      "Extent": -0.0135,
+      "Perimeter": 0.9614
+    },
+    "MajorAxisLength": {
+      "Area": 0.9328,
+      "MajorAxisLength": 1.0,
+      "MinorAxisLength": 0.728,
+      "Eccentricity": 0.5836,
+      "ConvexArea": 0.945,
+      "Extent": -0.2039,
+      "Perimeter": 0.978
+    },
+    "MinorAxisLength": {
+      "Area": 0.9066,
+      "MajorAxisLength": 0.728,
+      "MinorAxisLength": 1.0,
+      "Eccentricity": -0.0277,
+      "ConvexArea": 0.8957,
+      "Extent": 0.1453,
+      "Perimeter": 0.8274
+    },
+    "Eccentricity": {
+      "Area": 0.3361,
+      "MajorAxisLength": 0.5836,
+      "MinorAxisLength": -0.0277,
+      "Eccentricity": 1.0,
+      "ConvexArea": 0.3482,
+      "Extent": -0.3611,
+      "Perimeter": 0.4478
+    },
+    "ConvexArea": {
+      "Area": 0.9959,
+      "MajorAxisLength": 0.945,
+      "MinorAxisLength": 0.8957,
+      "Eccentricity": 0.3482,
+      "ConvexArea": 1.0,
+      "Extent": -0.0548,
+      "Perimeter": 0.9766
+    },
+    "Extent": {
+      "Area": -0.0135,
+      "MajorAxisLength": -0.2039,
+      "MinorAxisLength": 0.1453,
+      "Eccentricity": -0.3611,
+      "ConvexArea": -0.0548,
+      "Extent": 1.0,
+      "Perimeter": -0.1734
+    },
+    "Perimeter": {
+      "Area": 0.9614,
+      "MajorAxisLength": 0.978,
+      "MinorAxisLength": 0.8274,
+      "Eccentricity": 0.4478,
+      "ConvexArea": 0.9766,
+      "Extent": -0.1734,
+      "Perimeter": 1.0
+    }
+  }
+}

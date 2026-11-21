@@ -1,0 +1,719 @@
+{
+  "success": true,
+  "results": [
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_table_columns_to_match_set",
+        "kwargs": {
+          "batch_id": "raisin_source-raisin_frame",
+          "column_set": [
+            "Area",
+            "MajorAxisLength",
+            "MinorAxisLength",
+            "Eccentricity",
+            "ConvexArea",
+            "Extent",
+            "Perimeter",
+            "Class"
+          ]
+        },
+        "meta": {},
+        "id": "5336e969-2baf-453c-805b-c032f1c4ede8",
+        "severity": "critical"
+      },
+      "result": {
+        "observed_value": [
+          "Area",
+          "Class",
+          "ConvexArea",
+          "Eccentricity",
+          "Extent",
+          "MajorAxisLength",
+          "MinorAxisLength",
+          "Perimeter"
+        ]
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_to_exist",
+        "kwargs": {
+          "batch_id": "raisin_source-raisin_frame",
+          "column": "Area"
+        },
+        "meta": {},
+        "id": "87e3c6e7-f52b-48c1-ab19-ebb88dc1e948",
+        "severity": "critical"
+      },
+      "result": {},
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "raisin_source-raisin_frame",
+          "column": "Area"
+        },
+        "meta": {},
+        "id": "6b00950c-9536-4930-b297-1dc4638ba86f",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 900,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_between",
+        "kwargs": {
+          "batch_id": "raisin_source-raisin_frame",
+          "column": "Area",
+          "min_value": 0.0
+        },
+        "meta": {},
+        "id": "82cc94a1-f024-4bca-b828-4af9bca5f884",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 900,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_to_exist",
+        "kwargs": {
+          "batch_id": "raisin_source-raisin_frame",
+          "column": "MajorAxisLength"
+        },
+        "meta": {},
+        "id": "a01753f7-1bc5-490d-b726-5dd07d74047e",
+        "severity": "critical"
+      },
+      "result": {},
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "raisin_source-raisin_frame",
+          "column": "MajorAxisLength"
+        },
+        "meta": {},
+        "id": "3a063808-4605-46b1-9f2c-56dcfdbc7bfe",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 900,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_between",
+        "kwargs": {
+          "batch_id": "raisin_source-raisin_frame",
+          "column": "MajorAxisLength",
+          "min_value": 0.0
+        },
+        "meta": {},
+        "id": "bf99b710-3ff9-4cfd-bec9-110e6f621689",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 900,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_to_exist",
+        "kwargs": {
+          "batch_id": "raisin_source-raisin_frame",
+          "column": "MinorAxisLength"
+        },
+        "meta": {},
+        "id": "50b65cc4-9fb1-4530-a24f-a23117031ea6",
+        "severity": "critical"
+      },
+      "result": {},
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "raisin_source-raisin_frame",
+          "column": "MinorAxisLength"
+        },
+        "meta": {},
+        "id": "89e0cfcf-44be-4acf-b974-8b831baea889",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 900,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_between",
+        "kwargs": {
+          "batch_id": "raisin_source-raisin_frame",
+          "column": "MinorAxisLength",
+          "min_value": 0.0
+        },
+        "meta": {},
+        "id": "9b702f10-43fa-4e53-a2a6-f86cea857f37",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 900,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_to_exist",
+        "kwargs": {
+          "batch_id": "raisin_source-raisin_frame",
+          "column": "Eccentricity"
+        },
+        "meta": {},
+        "id": "97971288-fbdb-47c7-88d0-24a9663ac5d9",
+        "severity": "critical"
+      },
+      "result": {},
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "raisin_source-raisin_frame",
+          "column": "Eccentricity"
+        },
+        "meta": {},
+        "id": "be932fb7-b0cd-4af2-a0e7-361e881bd1be",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 900,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_between",
+        "kwargs": {
+          "batch_id": "raisin_source-raisin_frame",
+          "column": "Eccentricity",
+          "min_value": 0.0,
+          "max_value": 1.0
+        },
+        "meta": {},
+        "id": "ffe1b3a2-2337-4f42-96e0-7c5f74e5a73e",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 900,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_to_exist",
+        "kwargs": {
+          "batch_id": "raisin_source-raisin_frame",
+          "column": "ConvexArea"
+        },
+        "meta": {},
+        "id": "445a4e29-d346-4b3f-b430-6c474e2b1f43",
+        "severity": "critical"
+      },
+      "result": {},
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "raisin_source-raisin_frame",
+          "column": "ConvexArea"
+        },
+        "meta": {},
+        "id": "bcdb915b-463c-467e-a762-8fa844ea1293",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 900,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_between",
+        "kwargs": {
+          "batch_id": "raisin_source-raisin_frame",
+          "column": "ConvexArea",
+          "min_value": 0.0
+        },
+        "meta": {},
+        "id": "c250503a-bc8f-4d67-b978-e12a4da61c72",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 900,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_to_exist",
+        "kwargs": {
+          "batch_id": "raisin_source-raisin_frame",
+          "column": "Extent"
+        },
+        "meta": {},
+        "id": "759e8c41-cdd1-40d8-aeeb-ebd666f3bd13",
+        "severity": "critical"
+      },
+      "result": {},
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "raisin_source-raisin_frame",
+          "column": "Extent"
+        },
+        "meta": {},
+        "id": "fd61121e-ca97-4689-a1a4-e487151e8e30",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 900,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_between",
+        "kwargs": {
+          "batch_id": "raisin_source-raisin_frame",
+          "column": "Extent",
+          "min_value": 0.0,
+          "max_value": 1.0
+        },
+        "meta": {},
+        "id": "06a2af71-7214-461b-bf4b-47be49827eaf",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 900,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_to_exist",
+        "kwargs": {
+          "batch_id": "raisin_source-raisin_frame",
+          "column": "Perimeter"
+        },
+        "meta": {},
+        "id": "2aef9895-7b5d-4358-87d6-2fb3e80d3f35",
+        "severity": "critical"
+      },
+      "result": {},
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "raisin_source-raisin_frame",
+          "column": "Perimeter"
+        },
+        "meta": {},
+        "id": "ecdcb71d-0d04-42c4-8d2a-4f4b7952d4f8",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 900,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_between",
+        "kwargs": {
+          "batch_id": "raisin_source-raisin_frame",
+          "column": "Perimeter",
+          "min_value": 0.0
+        },
+        "meta": {},
+        "id": "b52f918b-67db-43a8-9e44-4ddb48bdebe2",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 900,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_to_exist",
+        "kwargs": {
+          "batch_id": "raisin_source-raisin_frame",
+          "column": "Class"
+        },
+        "meta": {},
+        "id": "5ea56b40-867a-4b81-ae82-8fe17ab40954",
+        "severity": "critical"
+      },
+      "result": {},
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "raisin_source-raisin_frame",
+          "column": "Class"
+        },
+        "meta": {},
+        "id": "a1ecdec7-2f48-47fc-a654-6b4dadb6633f",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 900,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_in_set",
+        "kwargs": {
+          "batch_id": "raisin_source-raisin_frame",
+          "column": "Class",
+          "value_set": [
+            "Kecimen",
+            "Besni"
+          ]
+        },
+        "meta": {},
+        "id": "f6bb6e7a-bdf6-4c82-a454-51aff198de75",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 900,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    }
+  ],
+  "suite_name": "raisin_measurements",
+  "suite_parameters": {},
+  "statistics": {
+    "evaluated_expectations": 25,
+    "successful_expectations": 25,
+    "unsuccessful_expectations": 0,
+    "success_percent": 100.0
+  },
+  "meta": {
+    "great_expectations_version": "1.25.0",
+    "batch_spec": {
+      "batch_data": "PandasDataFrame"
+    },
+    "batch_markers": {
+      "ge_load_time": "20261121T090925.626278Z",
+      "pandas_data_fingerprint": "9b9cfd16d56caf2cd8a52bc4145d292d"
+    },
+    "active_batch_definition": {
+      "datasource_name": "raisin_source",
+      "data_connector_name": "fluent",
+      "data_asset_name": "raisin_frame",
+      "batch_identifiers": {
+        "dataframe": "<DATAFRAME>"
+      }
+    },
+    "validation_id": "f66980c5-0d43-45de-aedd-7eedca5b759d",
+    "checkpoint_id": null,
+    "run_id": {
+      "run_name": null,
+      "run_time": "2026-11-21T14:39:25.761879+05:30"
+    },
+    "validation_time": "2026-11-21T09:09:25.761879+00:00",
+    "batch_parameters": {
+      "dataframe": "<DATAFRAME>"
+    }
+  },
+  "id": null
+}

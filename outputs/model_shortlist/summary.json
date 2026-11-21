@@ -1,0 +1,18 @@
+{
+  "positive_class": "Kecimen",
+  "rows_used": 720,
+  "iteration_scores": {
+    "iter1_baseline": 0.9299382716049382,
+    "iter2_corr_filter": 0.9273148148148147,
+    "iter3_filter_engineer": 0.9291589506172839
+  },
+  "best_iteration": "iter1_baseline",
+  "best_iteration_feature_config": {},
+  "shortlist": [
+    "MLPClassifier",
+    "HistGradientBoosting",
+    "LDA",
+    "LogisticRegression",
+    "ExtraTrees"
+  ]
+}
